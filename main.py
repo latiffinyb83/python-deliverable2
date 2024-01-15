@@ -59,7 +59,7 @@ oranges_at_piece = oranges * 3
 
 print()
 subtotal = float(apples_at_piece+grapes_at_piece+oranges_at_piece)
-print("Sub Total; ${:.2f}".format(subtotal))
+print("Sub Total: ${:.2f}".format(subtotal))
 
 
 tax = 0.05 * subtotal
